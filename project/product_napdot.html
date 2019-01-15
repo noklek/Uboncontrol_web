@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <link href="index.js" rel="">
+    <script type="text/javascript" src="index.js"> </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+    <div id="app">
+
+        <v-app>
+
+            <v-card>
+                <v-content>
+                    <v-layout>
+                        <v-toolbar>
+                            <v-layout row justify-space-between />
+                            <v-toolbar-items>
+                                <v-btn flat>
+                                    <v-img src="logo.png"> </v-img>
+                                </v-btn>
+                            </v-toolbar-items>
+                            <v-spacer></v-spacer>
+                            <v-toolbar-items align-center justify-center>
+                                <v-btn flat>สินค้า</v-btn>
+                                <v-btn flat>เกี่ยวกับ</v-btn>
+                                <v-btn flat>trainer iot</v-btn>
+                                <v-btn flat>ติดต่อ</v-btn>
+                                <v-btn flat>user</v-btn>
+                                <v-toolbar-side-icon class="hidden-lg"></v-toolbar-side-icon>
+                            </v-toolbar-items>
+                    </v-layout>
+                    </v-toolbar>
+                    </v-layout>
+                </v-content>
+            </v-card>
+
+            <v-content>
+                <v-card>
+                    <v-container>
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h1 class="text-xs-center">สินค้า</h1>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h2 class="text-xs-center">รายละเอียดสินค้า</h2>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout row wrap>
+                            <v-flex>
+                                <v-img src="src/yx.jpg"></v-img>
+                            </v-flex>
+                        </v-layout>
+                    </v-container>
+                </v-card>
+                </br>
+
+                <v-card>
+                    <v-layout row wrap>
+                        <v-flex xs12>
+                            <h1 class="text-xs-center">แอพพลิเคชัน NAPDOT </h1>
+                        </v-flex>
+                    </v-layout>
+
+                    <v-container style="background:#FFF5EE;">
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h1>การสมัครสมาชิก</h1>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout align-center justify-start row wrap>
+                            <v-flex xs12 sm6 md4>
+                                <v-img src="src/napdot/Register.png" heighgt=350 width=300></v-img>
+                            </v-flex>
+                            <v-flex xs12 sm6 md8>
+                                <h2> การสมัครสมาชิกประกอบด้วย </h2>
+                                <h3>- การกำหนดชื่อผู้ใช้งาน(USER NAME) </h3>
+                                <h3>- อีเมลล์(EMAIL ADDRESS)</h3>
+                                <h3>- และรหัสผ่าน(PASSWORD)</h3>
+                                <h4>* ผู้ใช้งานต้องกำหนดและจำเพื่อเข้าใช้งาน</h4>
+                            </v-flex>
+                        </v-layout>
+                    </v-container>
+
+                    <v-container>
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h1 class="text-xs-center">การเข้าสู่ระบบ</h1>
+                            </v-flex>
+                        </v-layout>
+                        <v-layout align-center justify-start row wrap>
+                            <v-flex xs12 sm5 md5>
+                                <h2>การเข้าใช้งานระบบประกอบด้วย</h2>
+                                <h3>- ชื่อผู้ใช้งาน(USER NAME) </h3>
+                                <h3>- รหัสผ่าน(PASSWORD)</h3>
+                            </v-flex>
+                            <v-flex xs12 sm7 md7>
+                                <v-img src="src/napdot/Login.png" height=550 width=300></v-img>
+                            </v-flex>
+                        </v-layout>
+                    </v-container>
+
+                    <v-container style="background:#FFF0F5;">
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h1>หน้า Dashboard</h1>
+                            </v-flex>
+                        </v-layout>
+
+                        <v-layout align-center justify-center row wrap>
+                            <v-flex xs12 sm6 nd8>
+                                <h3>หน้ารอการเพิ่มอุปกรณ์</h3>
+                                <v-img src="src/napdot/Dashboard - No Device yet.png" heighgt=350 width=300></v-img>
+                            </v-flex>
+                            <v-flex xs12 sm6 md4>
+                                <h3>หน้ารอการเชื่อมต่ออุปกรณ์</h3>
+                                <v-img src="src/napdot/Dashboard - First Sync.png" heighgt=350 width=300></v-img>
+                            </v-flex>
+                        </v-layout>
+                        </br>
+                        <v-layout align-center justify-center column>
+                            <v-flex xs12>
+                                <h3 class="text-xs-center">หน้าแสดงผลการใช้งาน</h3>
+                                <v-img src="src/napdot/Dashboard.png" heighgt=350 width=300></v-img>
+                            </v-flex>
+                        </v-layout>
+                        </br>
+                        <v-layout align-center justify-center row wrap>
+                            <v-flex xs12>
+                                <h3 class="text-xs-center">
+                                    เป็นหน้าแรกของแอพพลิเคชัน ใช้สำหรับเพิ่มอุปกรณ์หมอน
+                                    เชื่อมต่อกับหมอนและแสดงเวลาการนอนหลังจากใช้งานหมอน
+                                </h3>
+                            </v-flex>
+                        </v-layout>
+
+                    </v-container>
+
+                    <v-container style="background:;">
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <h1>การเพิ่มอุปกรณ์หมอน</h1>
+                            </v-flex>
+                        </v-layout>
+
+                        <v-layout row wrap>
+                            <v-flex xs12>
+                                <v-img src="src/napdot/Device - Searching.png"> </v-img>
+                            </v-flex>
+                            <v-flex xs12>
+                                <v-img src="src/napdot/Device - List of unpair device.png"> </v-img>
+                            </v-flex>
+                            <v-flex xs12>
+                                <v-img src="src/napdot/Device - Pairing.png"> </v-img>
+                            </v-flex>
+                            <v-flex xs12>
+                                <v-img src="src/napdot/Device - Pairing complete.png"> </v-img>
+                            </v-flex>
+
+                        </v-layout>
+                    </v-container>
+
+                </v-card>
+
+            </v-content>
+
+            <template>
+                <v-footer dark height="auto">
+                    <v-card class="flex" flat tile>
+                        <v-container>
+                            <v-card-title>
+                                <strong class="subheading">(ข้อมูลบริษัท) บริษัท อุบลคอนโทรลซิสเท็ม จำกัด 466
+                                    ถนนสรรพสิทธิ์ ตำบลในเมือง อำเภอเมือง จังหวัดอุบลราชธานี
+                                    34000 โทร. 090693936</strong>
+                                <!-- <v-spacer></v-spacer>
+
+        <v-btn v-for="icon in icons" :key="icon" class="mx-3" dark icon>
+          <v-icon size="24px">{{ icon }}</v-icon>
+        </v-btn> -->
+                            </v-card-title>
+                            <v-card-actions class="grey darken-3 justify-center">
+                                &copy; {{ new Date().getFullYear() }} —
+                                <strong>Uboncontrol</strong>
+                            </v-card-actions>
+                        </v-container>
+                    </v-card>
+                </v-footer>
+            </template>
+
+        </v-app>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>
+    <script>
+        new Vue({ el: '#app' })
+    </script>
+</body>
+
+</html>
